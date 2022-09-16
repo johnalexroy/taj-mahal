@@ -1,0 +1,47 @@
+body{
+    /* margin:0; */
+    text-align: center;
+}
+
+#menu{
+    position: fixed;
+    background-color: aqua;
+    margin-top: 0px;
+    width: 100px ;
+    top: 0px ;
+    left: 0px;
+
+}
+
+.links{
+    display: inline;
+    font-size: 30px ;
+    padding-right: 30px;
+
+}
+    
+
+html{
+ scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+}
+
+/* pseudo class
+syntax:pseudo-class
+property: value */
+a:hover{
+    font-size: 40px;
+    color: blue;
+}
+h1{
+    text-decoration: underline;
+}
+#taj{
+    position: sticky;
+    top: 60px;
+    background-color: aqua;
+}
